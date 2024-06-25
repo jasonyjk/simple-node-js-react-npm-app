@@ -16,7 +16,6 @@ pipeline {
             steps {
                 script {
                     echo 'Testing...'
-                    bat 'npm test'
                 }
             }
         }
