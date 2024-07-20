@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     echo 'Testing...'
-		    bat './jenkins/scripts/test.sh'
+		    bat 'call jenkins\\scripts\\test.bat'
                 }
             }
         }
