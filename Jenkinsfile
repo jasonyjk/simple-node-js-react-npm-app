@@ -16,6 +16,7 @@ pipeline {
             steps {
                 script {
                     echo 'Testing...'
+		    bat './jenkins/scripts/test.sh'
                 }
             }
         }
